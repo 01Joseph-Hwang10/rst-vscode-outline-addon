@@ -1,0 +1,11 @@
+Parts of this software are derived from the following MIT-licensed projects:
+
+- RST Preview (`tht13.rst-vscode`)
+  Copyright (c) 2016 Thomas Townsend
+
+- reStructuredText Syntax highlighting (`trond-snekvik.simple-rst`)
+  Copyright 2021 Trond Snekvik
+
+The full upstream license texts are included in the `LICENSES/` directory.
+
+This project as a whole is distributed under the MIT License. See `LICENSE`.

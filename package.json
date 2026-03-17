@@ -1,0 +1,42 @@
+{
+  "name": "rst-vscode-outline-addon",
+  "displayName": "RST Preview Outline Addon",
+  "description": "Attaches outline functionality on RST Preview extension",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "activationEvents": [
+    "onStartupFinished",
+    "workspaceContains:**/*.rst",
+    "onLanguage:rst"
+  ],
+  "publisher": "joseph-hwang",
+  "author": "Joseph Hwang",
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/01Joseph-Hwang/rst-vscode-outline-addon.git"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {},
+  "scripts": {
+    "lint": "eslint src test",
+    "pretest": "pnpm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.110.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3",
+    "globals": "^17.4.0"
+  }
+}
