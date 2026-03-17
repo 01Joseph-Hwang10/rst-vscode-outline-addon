@@ -39,6 +39,19 @@ function copyAssetFiles(wd) {
   fs.cpSync(syntaxSrc, syntaxDest);
 }
 
+function writeModifiedMarker(extensionDir) {
+  const markerPath = path.join(extensionDir, ".modified");
+  fs.writeFileSync(
+    markerPath,
+    `This extension has been modified by the RST Extension Patch.
+
+To restore the original extension, remove this extension and reinstall the original one from the marketplace.
+
+Last modified: ${new Date().toISOString()}
+`,
+  );
+}
+
 /**
  * Find the installed extension directory to patch.
  *
@@ -74,6 +87,9 @@ function activate(context) {
 
     // Copy the asset files to the extension directory.
     copyAssetFiles(extensionDir);
+
+    // Add modified marker to the extension directory.
+    writeModifiedMarker(extensionDir);
   }
 
   // Register the document symbol provider for reStructuredText files.
