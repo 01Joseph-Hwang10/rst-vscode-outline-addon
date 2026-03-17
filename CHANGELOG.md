@@ -4,6 +4,16 @@ All notable changes to the "rst-vscode-outline-addon" extension will be document
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.0] - 2026-03-17
+
+### Added
+
+- Activation now leaves a marker in the target `tht13.rst-vscode` extension after patching.
+
+### Changed
+
+- Internal release workflow support for the release agent.
+
 ## [1.0.0] - 2026-03-17
 
 ### Added
