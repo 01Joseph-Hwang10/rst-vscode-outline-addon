@@ -14,6 +14,7 @@ If you want to restore the original behavior of `tht13.rst-vscode`, you can foll
 
 1. Uninstall this extension.
 2. Reinstall `tht13.rst-vscode` from the VSCode marketplace.
+   1. You might need to manually delete the modified extension folder from your local extensions directory (usually located at `~/.vscode/extensions/`) if the uninstallation does not remove it completely. To do this, run `rm -rf ~/.vscode/extensions/tht13.rst-vscode-*` in your terminal.
 
 ## References
 
