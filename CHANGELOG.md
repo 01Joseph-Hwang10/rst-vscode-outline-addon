@@ -4,6 +4,12 @@ All notable changes to the "rst-vscode-outline-addon" extension will be document
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.1] - 2026-03-17
+
+### Changed
+
+- Expanded README with more detailed uninstallation guidance.
+
 ## [1.1.0] - 2026-03-17
 
 ### Added
