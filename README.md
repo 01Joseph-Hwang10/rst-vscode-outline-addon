@@ -5,7 +5,7 @@ This extension patches locally installed extension `tht13.rst-vscode` to ensure 
 ## Usage
 
 1. Install this extension.
-2. After the installation, VSCode will alert you that the extension has been modified. Click the "Reload Window" button on the alert to apply the changes.
+2. After the installation, VSCode will alert you that the extension has been modified. Click the "Reload Window" button on the alert to apply the changes. Or manually reload the window by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and selecting "Reload Window".
 3. After reloading, the preview button should now be visible in the editor when you open a `.rst` file.
 
 ### Restoring Original Behavior of `tht13.rst-vscode`
